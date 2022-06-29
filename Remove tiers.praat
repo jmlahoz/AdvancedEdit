@@ -20,7 +20,7 @@
 # This script will show an ordered list with the names of the different tiers in a TextGrid
 # so that the user can choose which tiers they want to remove (you can delete several tiers at once).
 
-include utils.praat
+include auxiliary.praat
 
 @getinfo: 0
 

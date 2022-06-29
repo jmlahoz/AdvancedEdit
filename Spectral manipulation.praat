@@ -28,7 +28,7 @@
 
 # This is an Editor script.
 
-include utils.praat
+include auxiliary.praat
 
 form Spectral manipulation...
 choice sex 1

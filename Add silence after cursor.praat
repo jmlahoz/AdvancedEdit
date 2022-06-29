@@ -21,7 +21,7 @@
 # Silence length is specified by the user.
 # This is a Sound Editor script.
 
-include utils.praat
+include auxiliary.praat
 
 form Add silence after cursor...
 positive length 0.015
