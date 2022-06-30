@@ -1,6 +1,6 @@
 # Cut Sound with TextGrid
 # José María Lahoz-Bengoechea (jmlahoz@ucm.es)
-# Version 2022-06-28
+# Version 2022-07-01
 
 # LICENSE
 # (C) 2022 José María Lahoz-Bengoechea
