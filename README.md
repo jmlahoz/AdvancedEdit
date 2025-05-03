@@ -1,5 +1,5 @@
 LICENSE
-(C) 2022 José María Lahoz-Bengoechea.
+(C) 2023 José María Lahoz-Bengoechea.
 This file is part of AdvancedEdit, a bundle of scripts for Praat
 (Praat is a software developed by Paul Boersma and David Weenink).
 AdvancedEdit is free software; you can redistribute it and/or modify it
@@ -14,7 +14,7 @@ http://www.gnu.org/licenses/gpl-3.0.en.html
 
 Suggested citation:
 
-Lahoz-Bengoechea, José María (2022). AdvancedEdit for Praat (1.0) [Computer software]. https://github.com/jmlahoz/AdvancedEdit
+Lahoz-Bengoechea, José María (2023). AdvancedEdit for Praat (1.2) [Computer software]. https://github.com/jmlahoz/AdvancedEdit
 
 ------------------------------------------------------------------------------------------
 AdvancedEdit includes an array of new commands for Praat,
@@ -26,7 +26,7 @@ How to install AdvancedEdit as a Praat plugin in a permanent fashion:
    This is always under your user folder, but the location varies depending on your operating system.
    (In each case, change user_name for your actual user name).
    --On Windows, go to C:\Users\user_name\Praat
-   --On Mac, go to /Users/user_name/Library/Preferences/Praat Prefs/
+   --On Mac, go to /Users/user_name/Library/Preferences/Praat Prefs/ (You may need to make invisible folders visible by pressing Command+Shift+Period)
    --On Linux, go to /home/user_name/.praat-dir
 2. Create a subfolder named plugin_AdvancedEdit
    (this is case-sensitive).
