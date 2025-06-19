@@ -13,11 +13,17 @@
 # This file runs on Praat, a software developed by Paul Boersma
 # and David Weenink at University of Amsterdam.
 
+if praatVersion >= 6215
+spectrum_menu$ = "Spectrogram"
+else
+spectrum_menu$ = "Spectrum"
+endif
+
 Add menu command... "Objects" "New" "Create source..." "" 0 Create source.praat
 Add menu command... "Objects" "New" "Create filter..." "" 0 Create filter.praat
 Add action command... Sound 1 "" 0 "" 0 "Filter (inverse)..." "Remove noise..." 1 Filter (inverse).praat
 Add menu command... "SoundEditor" "Edit" "Add silence after cursor..." "" 0 Add silence after cursor.praat
-Add menu command... "SoundEditor" "Spectrum" "Spectral manipulation..." "" 0 Spectral manipulation.praat
-Add menu command... "TextGridEditor" "Spectrum" "Spectral manipulation..." "" 0 Spectral manipulation.praat
+Add menu command... "SoundEditor" "'spectrum_menu$'" "Spectral manipulation..." "" 0 Spectral manipulation.praat
+Add menu command... "TextGridEditor" "'spectrum_menu$'" "Spectral manipulation..." "" 0 Spectral manipulation.praat
 Add menu command... "TextGridEditor" "Edit" "Cut Sound with TextGrid" "Erase text" 0 Cut Sound with Textgrid.praat
 Add menu command... "TextGridEditor" "Tier" "Remove tiers..." "Remove entire tier" 0 Remove tiers.praat
